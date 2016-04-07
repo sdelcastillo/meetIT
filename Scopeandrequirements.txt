@@ -1,0 +1,32 @@
+Scope Statement:
+Our application will take in a PDF resume and convert it into categorized searchable tags. These tags will be stored in a MySQL database that has a
+capacity of 50MB only accesible through the Radford University domain. This application will implement an employee side where resumes can be uploaded
+and an employer side where tags can be searched and searches can be saved. This application will not provide a medium of contact between the two parties
+but provide a method for employers to seek out the strongest candidate(s) for their open positions.
+
+
+1. User email is username
+2. Will hash password and store in database
+3. Will use MySQL for database
+4. Will upload PDF onto phone from computer
+5. Will take employee PDF of resume
+6. Will take password with 1 Upper case letter, 1 lowercase letter, 1 symbol, and at least 8 characters
+7. Will convert PDF to plain text
+8. Will parse plain text into searchable tags
+9. System cannot be accesed by a user without an account
+10. Will transfer data via wifi
+11. Employer will search criteria by tags
+12. Employer will save or delete potential employees
+13. Users will be uniquely identified by an ID in the database
+14. Will implement a login screen
+15. Will implement a create account screen
+16. Will implement an employee account
+17. Will implement an employer account
+18. Will implement an upload resume 
+19. Will implement a user agreement screen
+20. Will determine whether user is an employee or employer
+21. Tags can only be added via the database
+22. Will implement a check box to keep user signed in 
+23. Will implement a system where employers can view saved resumes
+24. Option for employee to resubmit resume
+25. Will implement a category system to organize the tags
