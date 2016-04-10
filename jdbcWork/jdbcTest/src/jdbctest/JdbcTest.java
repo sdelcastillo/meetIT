@@ -20,22 +20,25 @@ public class JdbcTest {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        String url = "jdbc:mysql://137.45.216.2:3306/hszymanski@localhost";
-		String user = "hszymanski";
-		String pass = "dragonsrock2";
+        //String url = "jdbc:mysql://137.45.216.2:3306/HSZYMANSKI";
+        String url = "jdbc:mysql://137.45.216.2:3306/HSZYMANSKI";
+		String user = "HSZYMANSKI";
+		String pass = "welcometothejam";
 		Connection conn = null;
 		
 		try 
 		{
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(url, user, pass);
+                        System.out.println("worked?");
+			conn = DriverManager.getConnection("jdbc:mysql://137.45.216.2:3306/HSZYMANSKI", user, pass);
+                        System.out.println("pllleaseee");
 		}
 		catch(ClassNotFoundException ex) {
 			System.out.println(ex);
 		}
 		catch(SQLException se)
 		{
-			System.out.println("srry bae");
+			System.out.println(se);
 		}
     }
     
