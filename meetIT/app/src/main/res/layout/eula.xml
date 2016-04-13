@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="END USER LICENSE AGREEMENT     This copy of meetIT (&quot;the Software Product&quot;) and accompanying documentation is licensed and not sold. This Software Product is protected by copyright laws and treaties, as well as laws and treaties related to other forms of intellectual property. Radford University Itec370 or its subsidiaries, affiliates, and suppliers (collectively &quot;RU&quot;) own intellectual property rights in the Software Product. The Licensee&apos;s (&quot;you&quot; or &quot;your&quot;) license to download, use, copy, or change the Software Product is subject to these rights and to all the terms and conditions of this End User License Agreement (&quot;Agreement&quot;).   Acceptance YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT BY SELECTING THE &quot;ACCEPT&quot; OPTION AND DOWNLOADING THE SOFTWARE PRODUCT OR BY INSTALLING, USING, OR COPYING THE SOFTWARE PRODUCT. YOU MUST AGREE TO ALL OF THE TERMS OF THIS AGREEMENT BEFORE YOU WILL BE ALLOWED TO DOWNLOAD THE SOFTWARE PRODUCT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, YOU MUST SELECT &quot;DECLINE&quot; AND YOU MUST NOT INSTALL, USE, OR COPY THE SOFTWARE PRODUCT.  Additional Terms. DO NOT INCLUDE ANYONE ELSES EMAIL. Your email alone is how you can be communicated. Multiple emails may lead to confusion for the respected side.  License Grant This Agreement entitles you to install and use one copy of the Software Product. In addition, you may make one archival copy of the Software Product. The archival copy must be on a storage medium other than a hard drive, and may only be used for the reinstallation of the Software Product. This Agreement does not permit the installation or use of multiple copies of the Software Product, or the installation of the Software Product on more than one computer at any given time, on a system that allows shared used of applications, on a multi-user network, or on any configuration or system of computers that allows multiple users. Multiple copy use or installation is only allowed if you obtain an appropriate    "
+        android:id="@+id/Eula" />
+</LinearLayout>
