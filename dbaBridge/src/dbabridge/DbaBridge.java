@@ -12,10 +12,15 @@ import java.math.*;
  * @author Hayden
  */
 public class DbaBridge {
+    
+    int test;
+    
+    
 
     /**
      * @param args the command line arguments
      */
+    /*
     public static void main(String[] args) {
         String url = "jdbc:oracle:thin:@PICARD2.radford.edu:1521:itec2";
         String username = "hszymanski";
@@ -37,10 +42,10 @@ public class DbaBridge {
             conn = DriverManager.getConnection(url, username, password);
             statement = conn.createStatement();
             String query;
-            query = "SELECT * FROM DUAL";
+            query = "SELECT * FROM PRODUCT";
             ResultSet rs = statement.executeQuery(query);
             while(rs.next()) {
-                String name = rs.getString("DUMMY");
+                String name = rs.getString("PRODNO");
                 System.out.println(name);
             }
             
@@ -57,6 +62,7 @@ public class DbaBridge {
         
     }
     
+    */
     
     
 }
