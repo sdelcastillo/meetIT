@@ -83,4 +83,13 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GITURDONE"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toEndOf="@+id/editText5"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
