@@ -12,17 +12,19 @@ package dbabridge;
 public class User {
     private String userEmail, userPassword;
     
+    
     public User(String assignUserEmail, String assignUserPassword)
     {
         userEmail = assignUserEmail;
         userPassword = assignUserPassword;
+        this.hashUserPassword();
     }
     
     /**
      * Precondition: Password has been set in constructor
      * Postcondition: String for password is now replaced with hashed version
      */
-    public void hashUserPassword()
+    private void hashUserPassword()
     {
         
     }

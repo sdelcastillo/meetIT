@@ -14,7 +14,7 @@ import java.math.*;
 public class DbaBridge {
     
     int test;
-    
+    User bob = new User("lol", "tim");
     
 
     /**
