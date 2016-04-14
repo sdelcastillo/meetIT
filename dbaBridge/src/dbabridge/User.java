@@ -9,7 +9,7 @@ package dbabridge;
  *
  * @author Hayden Szymanski
  */
-public class User {
+public class User implements Connectable {
     private String userEmail, userPassword;
     
     
