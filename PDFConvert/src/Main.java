@@ -8,10 +8,18 @@ public class Main
 {
     public static void main(String[] args) throws IOException
     {
-        PDDocument document = PDDocument.load(new File("AGR-Resume.pdf"));
+        PDDocument document = PDDocument.load(new File("AGR-Resume31.pdf"));
         PDFTextStripper reader = new PDFTextStripper();
         String pdfText = reader.getText(document);
+        
+        //DEBUG pdfText
+        //System.out.println(pdfText);
+        
         String onlyText = pdfText.replaceAll("[^A-Za-z0-9@.#+ ]", "");
+        
+        //DEBUG onlyText
+        System.out.println(onlyText);
+        
         String[] resumeTokens = onlyText.split("[ ]+");
         boolean bool = false;
         String userString = "";
