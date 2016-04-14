@@ -6,8 +6,9 @@
 package dbabridge;
 
 /**
- *
  * @author Hayden Szymanski
+ * Parent class for any user of the system, do not instantiate directly
+ * Will likely remove interface in future
  */
 public class User implements Connectable {
     private String userEmail, userPassword;
@@ -27,6 +28,16 @@ public class User implements Connectable {
     private void hashUserPassword()
     {
         
+    }
+    
+    public String getUserEmail()
+    {
+        return userEmail;
+    }
+    
+    public void setUserEmail(String newUserEmail)
+    {
+        userEmail = newUserEmail;
     }
     
     
