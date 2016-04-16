@@ -20,7 +20,7 @@ public class DbaBridge {
     /**
      * @param args the command line arguments
      */
-    /*
+    
     public static void main(String[] args) {
         String url = "jdbc:oracle:thin:@PICARD2.radford.edu:1521:itec2";
         String username = "hszymanski";
@@ -42,10 +42,10 @@ public class DbaBridge {
             conn = DriverManager.getConnection(url, username, password);
             statement = conn.createStatement();
             String query;
-            query = "SELECT * FROM PRODUCT";
+            query = "SELECT * FROM APP_USER";
             ResultSet rs = statement.executeQuery(query);
             while(rs.next()) {
-                String name = rs.getString("PRODNO");
+                String name = rs.getString("NAME");
                 System.out.println(name);
             }
             
@@ -62,7 +62,7 @@ public class DbaBridge {
         
     }
     
-    */
+    
     
     
 }
